@@ -86,7 +86,6 @@ if __name__ == '__main__':
                 if key in disease_list:
                     # evidence[key] = engine.facts[index][key]
                     disease = key
-                    break
                 elif key == stool_type and engine.facts[index][key] is None:
                     disease = unknown
                     break
@@ -133,9 +132,7 @@ if __name__ == '__main__':
         for index in range(len(engine.facts)):
             for key in engine.facts[index]:
                 if key in disease_list:
-                    # evidence[key] = engine.facts[index][key]
                     disease = key
-                    break
 
         print_diagnosis(disease, engine.facts)
 
