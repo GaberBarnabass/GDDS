@@ -13,7 +13,7 @@ Ad eccezione dell'IBS, per UC e CM può anche essere identificata la gravità de
 - Grave;
 - Fulminante.
 
-A tale scopo viene utilizzato un sistema basato su conoscenza, il quale utilizza un insieme di regole e una rete bayesiana, grazie alla quale non solo è possibile predire una malattia da da sintomi, ma anche la probabilità del verificarsi un sintomo data la malattia e la presenza di altre sintomatologie.
+A tale scopo viene utilizzato un sistema basato su conoscenza, il quale utilizza un insieme di regole per verificare la presenza di una di queste malattie; poiché la sintomatologia non è standard ed alcuni pazienti potrebbero verificare o meno alcuni sintomi, la base di conoscenza da sola può non essere in gradi di identificare la malattia. In tal caso è possibile usare una rete bayesiana, grazie alla quale non solo è possibile predire una malattia da da sintomi, ma anche la probabilità del verificarsi un sintomo data la malattia e la presenza di altre sintomatologie.
 
 A causa della mancanza di dati reali, si è prima effettuato uno studio per ognuna delle tre malattie:
 
